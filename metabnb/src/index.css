@@ -146,6 +146,7 @@ body {
   gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 #card_container {
@@ -248,4 +249,78 @@ body {
   list-style: none;
   font-size: 14px;
   line-height: 35px;
+}
+
+/* Code from here is for Place to stay page  */
+
+#place_page_container {
+  margin: 20px 100px;
+}
+
+#location_list_container {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location_list_item {
+  list-style: none;
+  font-size: 20px;
+  
+}
+
+#location_button {
+  width: 161px;
+  height: 48px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Code from here is styling for the modal */
+
+#modal_container {
+  width: 600px;
+  height: 326px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 33px 38px;
+  margin: 0px auto;
+} 
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  gap: 2px;
+}
+
+#close_button {
+  background: none;
+  border: none;
+  height: 24px;
+  width: 24px;
+}
+
+.wallets {
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  padding: 5px;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+#connect_header {
+  border-bottom: 1px solid #CFD8DC;
+  border-bottom-width: 100%;
 }

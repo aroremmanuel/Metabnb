@@ -1,4 +1,3 @@
-// import Photo from '../media/photo_1.png'
 import Star from '../media/star.png'
 
 function RentalCard(props) {

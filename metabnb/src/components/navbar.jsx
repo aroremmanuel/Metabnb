@@ -1,7 +1,14 @@
 import Nav_icon from '../media/nav-icon.png';
 import Nav_icon_text from '../media/nav-icon-text.png';
 
+
+import ConnectWallet from './ConnectWallet.jsx'
+import { useState } from "react";
+
 function Navbar() {
+
+    const [show , setShow] = useState(false)
+    
     return (
         <div>
             <nav id='navbar'>
@@ -15,8 +22,11 @@ function Navbar() {
                     <li><a href='nfts'>NFTs</a></li>
                     <li><a href='community'>Community</a></li>
                 </ul>
-                <button id='connect_wallet'>Connect wallet</button>
+                <button id='connect_wallet' onClick={() => setShow(true) }>Connect wallet</button>
+                
             </nav>
+
+            <ConnectWallet show={show} />
         </div>
     );
 }
