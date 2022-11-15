@@ -11,11 +11,11 @@ function ConnectWallet(props) {
     return(
             
         
-        <div>
+        <div id='modal'>
             <div id='modal_container'>
                 <div className='flex' id='connect_header'>
                     <h1>Connect Wallet</h1>
-                    <button id='close_button'><img src={Close_icon} id="close_icon" /></button>
+                    <button id='close_button' onClick={props.onCLose}><img src={Close_icon} id="close_icon" /></button>
                 </div>
                 <div>
                     <p>Choose your preferred wallet:</p>

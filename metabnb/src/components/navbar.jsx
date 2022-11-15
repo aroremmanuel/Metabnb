@@ -26,7 +26,7 @@ function Navbar() {
                 
             </nav>
 
-            <ConnectWallet show={show} />
+            <ConnectWallet onCLose={() => setShow(false)} show={show} />
         </div>
     );
 }
