@@ -18,18 +18,18 @@ function ConnectWallet(props) {
                     <button id='close_button' onClick={props.onCLose}><img src={Close_icon} id="close_icon" /></button>
                 </div>
                 <div>
-                    <p>Choose your preferred wallet:</p>
+                    <p id='choose'>Choose your preferred wallet:</p>
                 </div>
                 <div className='flex , wallets'>
                     <div className='flex'>
-                    <img src={MetaMask} />
+                    <img src={MetaMask} className="wallet_icon_connect" />
                     <h2>Metamask</h2>
                     </div>
                     <img src={Connect_icon} />
                 </div>
                 <div className='flex , wallets' >
                     <div className='flex'>
-                    <img src={WalletConnect} />
+                    <img src={WalletConnect} className="wallet_icon_connect" />
                     <h2>WalletConnect</h2>
                     </div>
                     <img src={Connect_icon} />

@@ -11,7 +11,7 @@ function RentalCard(props) {
                     <p id='card_name'>Desert King</p>
                 </div>
                 <div>
-                    <h2 id='card_price'>100MBT per night </h2>
+                    <h2 id='card_price'>1MBT per night </h2>
                 </div>
             </div>
             <div className="flex_display">
