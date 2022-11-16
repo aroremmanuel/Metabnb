@@ -14,6 +14,7 @@ import Footer from './components/footer.jsx';
 
 import Home from './pages/home.jsx';
 import Place_to_stay from './pages/place_to_stay.jsx'
+import PlaceToStay from './pages/place_to_stay.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "place-to-stay",
-    element: <Place_to_stay />
+    element: <PlaceToStay />
   },
 ]);
 
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
+    <PlaceToStay />
     <RouterProvider router={router} />
     <Footer />
   </React.StrictMode>

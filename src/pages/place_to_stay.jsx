@@ -18,7 +18,7 @@ import Photo_14 from '../media/photo_14.png'
 import Photo_15 from '../media/photo_15.png'
 import Photo_16 from '../media/photo_16.png'
 
-function Place_to_stay() {
+function PlaceToStay() {
     return(
         <div>
             <Locations />
@@ -76,4 +76,4 @@ function Place_to_stay() {
     );
 }
 
-export default Place_to_stay;
+export default PlaceToStay;
