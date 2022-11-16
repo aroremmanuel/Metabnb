@@ -21,7 +21,7 @@ function Navbar() {
                 <div id='drop_menu'>
                 <ul id='navbar_list'>
                     <li><a href='/'>Home</a></li>
-                    <li><a href='/place-to-stay'>Place to stay</a></li>
+                    <li><a href='place-to-stay'>Place to stay</a></li>
                     <li><a href='nfts'>NFTs</a></li>
                     <li><a href='community'>Community</a></li>
                 </ul>
