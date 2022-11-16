@@ -24,10 +24,6 @@ const router = createBrowserRouter([
     path: "place-to-stay",
     element: <Place_to_stay />
   },
-  {
-    path: "*",
-    element: <Place_to_stay />
-  }
 ]);
 
 
